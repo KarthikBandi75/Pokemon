@@ -1,12 +1,20 @@
-# React + Vite
+# Pokémon Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application that fetches and displays Pokémon data from the PokeAPI. The app allows users to browse 150 Pokémon, search by name, filter by type, mark favorites, compare two Pokémon with validated inputs, and view detailed information via a "View Details" button on each card. Built with a responsive, light-themed UI using Tailwind CSS v4 and inline colors (#0A66C2, #00A69C), it includes animations and toast notifications for a polished user experience.
 
-Currently, two official plugins are available:
+## Features
+- **Browse Pokémon**: Displays 150 Pokémon with name, ID, image, and type(s) in a responsive card grid.
+- **Search and Filter**: Real-time search by name and type filtering via a dropdown.
+- **Favorites**: Add/remove Pokémon to a favorites list, persisted in local storage.
+- **Compare Pokémon**: Compare two Pokémon by ID or name, with validation to ensure valid inputs (IDs 1–150 or valid names).
+- **Details View**: View detailed stats and abilities for each Pokémon, accessible via card clicks or "View Details" buttons.
+- **Responsive Design**: Adapts to desktop and mobile with a 1–4 column grid.
+- **Error Handling**: Shows loading spinners, empty states, and toast notifications for errors/invalid inputs.
+- **Animations**: Smooth transitions using Framer Motion for cards, pages, and buttons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/KarthikBandi75/Pokemon
+   cd pokemon-app
