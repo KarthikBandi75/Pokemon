@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+
+
+body {
+  @apply bg-[linear-gradient(to_bottom_right,#E0F7FA,#E3F2FD)] min-h-screen font-[Inter,sans-serif];
+}
+
+.spinner {
+  @apply w-8 h-8 border-4 border-t-[#0A66C2] border-gray-200 rounded-full animate-spin;
+}
